@@ -18,7 +18,7 @@
 # RPM packaging
 #
 name = argus-gsi-pep-callout
-version = 1.3.0
+version = 1.3.1
 release = 1
 
 dist_url = http://argus-authz.github.com/$(name)/distrib/$(name)-$(version).tar.gz
