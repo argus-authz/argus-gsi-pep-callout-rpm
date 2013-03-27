@@ -51,12 +51,15 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %{_libdir}/libgsi_pep_callout.so
-%{_libdir}/libgsi_pep_callout.so.1.0.0
+%{_libdir}/libgsi_pep_callout.so.1.0.1
 %{_libdir}/libgsi_pep_callout.so.1
 
 %doc COPYING LICENSE README etc/gsi-pep-callout.conf etc/gsi-authz.conf ChangeLog
 
 %changelog
+* Wed Mar 27 2013 Valery Tschopp <valery.tschopp@switch.ch> 1.3.1-1 
+- Package for upstream version 1.3.1
+
 * Thu Nov 9 2012 Valery Tschopp <valery.tschopp@switch.ch> 1.3.0-1 
 - Package for upstream version 1.3.0
 
